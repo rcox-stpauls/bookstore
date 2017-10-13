@@ -6,6 +6,9 @@ html, body, footer {
 div#wrapper,footer {
 	padding: 8px;
 }
+div#wrapper,body,html {
+	height:100%;
+}
 footer {
 	position: fixed;
 	bottom: 0;
@@ -21,6 +24,9 @@ ul.nav_bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	overflow: hidden;
 	background-color: #444;
 }
@@ -39,4 +45,15 @@ ul.nav_bar li a:hover:not(.active) {
 }
 ul.nav_bar li a.active {
     background-color: #4CAF50;
+}
+
+div#browse  {
+	margin: 51px 5px 5px 5px;
+	padding: 0;
+	height: 50%;
+}
+div#browse div {
+	margin: -4px 0 0 0;
+	border: 1px solid black;
+	height: 100%;
 }
