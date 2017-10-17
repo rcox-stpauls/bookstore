@@ -57,3 +57,12 @@ div#browse div {
 	border: 1px solid black;
 	height: 100%;
 }
+
+div#input {
+	margin: 100px auto auto auto;
+	padding: 0;
+	border: 1px solid black;
+}
+div#input form p {
+	display:inline;
+}
